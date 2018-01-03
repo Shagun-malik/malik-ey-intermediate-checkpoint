@@ -10,5 +10,15 @@
             chart-colors="vm.chartData.colors"
             chart-options="vm.chartOptions"
         />
+        <canvas 
+        ng-switch-when="Line"
+        id="line" 
+        class="chart chart-line" 
+        chart-data="vm.chartData.data" 
+        chart-labels="vm.chartData.labels" 
+        chart-series="vm.chartData.series"
+        chart-colors="vm.chartData.colors"
+        chart-options="vm.chartOptions"
+    />
     </div>
 </tomato-card>

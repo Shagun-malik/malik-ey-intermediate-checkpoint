@@ -43,6 +43,12 @@
                 return tomatoes;
             });
         }
+        function getGridData() {
+            return restService.getTomatoes().then(function(gridData) {
+                return gridData;                
+            });
+
+        }
 
         function getFarms() {
             return restService.getFarms().then(function(farms) {

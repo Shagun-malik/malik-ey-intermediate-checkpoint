@@ -69,7 +69,13 @@ h1 {
 	margin: -5px 0 5px 0;
 	vertical-align: 20px;
 }
-
+#tomatoLogo{
+	height:37px;
+	float:left;
+	align-content:center;
+	padding-top:10px;
+	padding-right:10px;
+	}  
 .tomato-chart {
 	background: white;
 }

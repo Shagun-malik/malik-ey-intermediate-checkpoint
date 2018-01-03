@@ -22,7 +22,7 @@
                 labels: ["Spring", "Summer", "Fall", "Winter"],
                 series: ["Revenue ($M)"],
                 colors: [{
-                    backgroundColor: 'rgba(255, 99, 71, 0.8)',
+                    backgroundColor: 'rgb(73, 198, 127)',
                     pointBackgroundColor: "#333",
                     pointHoverBackgroundColor: "#333",
                     borderColor: "#fff",

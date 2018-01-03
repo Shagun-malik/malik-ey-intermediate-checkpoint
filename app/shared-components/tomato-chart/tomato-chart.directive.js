@@ -29,7 +29,13 @@
  
     function TomatoChartController(tomatoChartService) {
         var vm = this;
-        vm.chartData = tomatoChartService.getBarChartData(vm.data);
+        if(vm.type == "Bar"){
+            vm.chartData = tomatoChartService.getBarChartData(vm.data);
+        }
+        else{
+            vm.chartData = tomatoChartService.getLineChartData(vm.data);
+        }
+        
         vm.chartOptions = tomatoChartService.getChartOptions(
             vm.horizontalAxisLabel, vm.verticalAxisLabel, 
             vm.displayLegend
